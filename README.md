@@ -18,20 +18,19 @@ The goal is to showcase **AWS cost optimization skills** and best practices in c
 ---
 
 
-## Architecture
+## High Level Architecture (AWS Services I used)
 
-AWS Account
-│
-├─ AWS Budgets → Tracks costs & usage
-├─ SNS → Sends email/SMS alerts
-├─ Lambda → Automates budget alerts
-├─ CloudWatch Events → Schedules Lambda
-├─ QuickSight → Visualizes cost data
-└─ S3 → Stores Cost and Usage Reports
+- **AWS Budgets** – Track costs and set alerts  
+- **Amazon SNS** – Notification service for alerts  
+- **AWS Lambda** – Automate alerts and calculations  
+- **CloudWatch Events** – Schedule Lambda executions  
+- **Amazon QuickSight** – Interactive dashboards  
+- **Amazon S3** – Store cost and usage reports  
 
 ---
 
-## Features
+
+## What I built (features)
 
 - Real-time AWS cost monitoring
 - Automated notifications via SNS (email/SMS)
@@ -42,16 +41,6 @@ AWS Account
 
 ---
 
-## AWS Services Used
-
-- **AWS Budgets** – Track costs and set alerts  
-- **Amazon SNS** – Notification service for alerts  
-- **AWS Lambda** – Automate alerts and calculations  
-- **CloudWatch Events** – Schedule Lambda executions  
-- **Amazon QuickSight** – Interactive dashboards  
-- **Amazon S3** – Store cost and usage reports  
-
----
 
 ## Setup & Installation
 
@@ -112,6 +101,6 @@ cd real-time-aws-cost-dashboard
 
 ## Screenshots
 
-***Add screenshots of your QuickSight dashboard, Lambda logs, and SNS alerts here.**
+Find every screenshots of my QuickSight dashboard, Lambda logs, and SNS alerts here: https://cloudwithdj.com/track-and-optimize-aws-costs-with-a-custom-dashboard/ 
 
 
